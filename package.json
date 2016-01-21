@@ -1,10 +1,9 @@
 {
   "name": "mocha-fold",
   "main": "./lib/index.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Code folding for Mocha `it` blocks.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "mocha-fold:fold"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
