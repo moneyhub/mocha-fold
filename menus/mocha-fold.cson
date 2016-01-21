@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Fold Mocha Blocks'
+      'command': 'mocha-fold:fold'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Mocha Fold'
+      'submenu': [
+        {
+          'label': 'Fold Blocks'
+          'command': 'mocha-fold:fold'
+        }
+      ]
+    ]
+  }
+]
