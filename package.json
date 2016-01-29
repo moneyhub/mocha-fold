@@ -1,7 +1,7 @@
 {
   "name": "mocha-fold",
   "main": "./lib/index.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Code folding for Mocha `it` blocks.",
   "keywords": [],
   "activationCommands": {
